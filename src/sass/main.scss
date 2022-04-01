@@ -2,6 +2,8 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+@import './section';
+@import './container';
 @import './header';
 @import './hero';
 @import './products';
