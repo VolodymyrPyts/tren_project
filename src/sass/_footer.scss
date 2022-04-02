@@ -1,27 +1,8 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
 
-ul {
-    margin: 0;
-    padding: 0;
-
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 .section-wrap {
     width: 480px;
-    background: #FFF5F6;
+    background: var(--background-pink-color);
 }
 
 .footer-text {
@@ -32,7 +13,7 @@ a {
     font-size: 18px;
     line-height: calc(21 / 18);
     text-transform: uppercase;
-    color: #FFA5BA;
+    color: var(--second-accent-color);
 }
 
 .footer-text-maine {
@@ -43,7 +24,7 @@ width: 200px;
     line-height: calc(39 / 34);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #D41443;
+    color: var(--first-accent-color);
 }
 
 .footer-list {
@@ -91,11 +72,11 @@ border-top: 1px solid #E1E1E1;
     font-weight: 700;
     font-size: 12px;
     line-height: calc(22 / 12);
-    color: #D41443;
+    color: var(--first-accent-color);
 }
 
 .tel-item--black {
-    color: #000000;
+    color: var(--first-text-color);
 }
 
 .text__copy {
@@ -106,5 +87,5 @@ border-top: 1px solid #E1E1E1;
     font-size: 14px;
     line-height: calc(21 / 14);
     text-align: center;
-    color: #907E82;
+    color: var(--second-text-color);
 }
