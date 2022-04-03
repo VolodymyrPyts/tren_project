@@ -227,17 +227,34 @@ ul {
 }
 
 .contacts {
-  background-color: var(--background-pink-color);
+  background-size: 100% 85%;
 }
 
-.cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media (min-width: 768px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -32px;
+  }
 }
 
 .cards__item {
-  width: calc((100% - 96px) / 3);
-  margin-left: 32px;
+  background-color: var(--white-text-color);
+  border-radius: 24px;
+  padding: 40px 32px;
+}
+
+@media (min-width: 768px) {
+  .cards__item {
+    width: calc((100% - 96px) / 3);
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards__item {
+    padding: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
