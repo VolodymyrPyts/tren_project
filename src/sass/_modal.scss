@@ -1,9 +1,14 @@
 .modal {
     overflow: auto;
     position: fixed;
-    width: 250px;
     height: 100%;
     background: #E17992;
+    @media screen and (max-width: 767px) {
+        width: 250px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 254px;
+    }
 }
 .modal__container {
     width: 100%;
@@ -20,15 +25,14 @@
     text-align: center;
     margin-right: auto;
     cursor: pointer;
-    color: #fff;
+    color: var(--white-text-color);
     background: #E17992;
 }
 .modal__btn {
-    padding: 14px 48px;
-    background: #FFFFFF;
+    background: var(--white-text-color);
     border-radius: 22px;
     margin-top: 60px;
-    color: #D41443;
+    color: var(--first-accent-color);
     cursor: pointer;
     border: transparent;
     display: flex;
@@ -37,6 +41,12 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
+    @media screen and (max-width: 767px) {
+        padding: 14px 48px;
+    }
+    @media screen and (min-width: 768px) {
+        padding: 14px 43px;
+    }
 
 }
 .modal__svg-next {
@@ -69,11 +79,11 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 
     &:hover,
     &:focus {
-        color: #D41443;
+        color: var(--first-accent-color);
     }
 
 }
