@@ -109,6 +109,50 @@ body {
   }
 }
 
+ul {
+  list-style: none;
+}
+
+* {
+  margin: 0 auto;
+}
+
+.products {
+  background: #ffffff;
+}
+
+.product__natural {
+  margin-bottom: 15px;
+  font-family: 'Titan One';
+  font-size: 18px;
+  line-height: 1.16;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFA5BA;
+}
+
+.product__main-title {
+  margin-bottom: 148px;
+  font-family: 'Titan One';
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+.product-list {
+  padding: 0;
+}
+
+.product-list__item {
+  max-width: 280px;
+  max-height: 489px;
+  background-color: #FFB8CA;
+  border-radius: 24px;
+}
+
 .review-list__item {
   width: 100%;
   text-align: center;
@@ -180,5 +224,20 @@ body {
 
 .pagination-list__item:not(:last-child) {
   margin-right: 18px;
+}
+
+.contacts {
+  background-color: var(--background-pink-color);
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards__item {
+  width: calc((100% - 96px) / 3);
+  margin-left: 32px;
 }
 /*# sourceMappingURL=main.css.map */
