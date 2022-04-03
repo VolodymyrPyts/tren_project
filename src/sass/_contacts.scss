@@ -1,0 +1,10 @@
+.contacts {
+    background-color: var(--background-pink-color);    
+}
+.cards{
+    display: flex;
+}
+.cards__item{   
+    width: calc((100% - 96px) / 3);
+    margin-left: 32px;
+}
