@@ -17,33 +17,142 @@
     padding: 40px 32px;
     margin-bottom: 20px;
     box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
-    ;
+    &:nth-of-type(2) {
+        .cards__label {
+            width: 130px;
+            background-color: #C2E297;
+            @media (min-width: 768px) {
+                width: 138px;
+            }
+        }
+    }
     @media (min-width: 768px) {
         width: calc((100% - 96px) / 3);
         margin-left: 32px;    
     }  
     @media (min-width: 1200px) {
         padding: 40px;
-    }
+ }
 }
+
+
+.brd {
+    border-top: 1px solid rgba(225, 225, 225, 1);
+}
+
 .cards__label {
-    width:80px;
-    height:16px;
+    display: block;
+    text-align: center;
+    letter-spacing:0.04em;
+    margin: 0;
+    border-radius: 4px;
     background-color: #F0D1A5;
     color: var(--white-text-color);
     text-transform: uppercase;
+    width: 80px;
+    height:16px;
     font-size: 12px;
     font-weight: 500;
-    line-height: 22px;
-    text-align:center;
-    letter-spacing:0.04em;
+    line-height: 1.83;
+    @media (min-width: 768px) {
+        width:73px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    @media (min-width: 1200px) {
+        width:75px;
+        line-height: 1.88;
+    }   
 }
 
-.co
+
+
+.cards__text{
+    color: #907E82;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    @media (min-width: 768px) {
+    font-size: 14px;
+    line-height:1.64;
+    }
+    @media (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    }
+}
+
+.cards__schedule-item {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04;
+    line-height: 1.83;
+    @media (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.85;
+    }
+    @media (min-width: 1200px) {
+    font-size: 16px;
+    line-height:1.88;
+    }
+}
+
+.cards__schedule-hours {
+    color: var(--second-accent-color);
+}
 
 .info__item-link {
     color: var(--second-text-color);
-      }
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    @media (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.85;
+        }
+        @media (min-width: 1200px) {
+        font-size: 16px;
+        line-height:1.81;
+        }
+
+ }
   
   
-  
+.cards_top {
+    padding-bottom: 24px;
+}
+
+.cards__schedule {
+    padding: 24px 0;
+}
+
+.info {
+    padding-top: 24px;
+}
+
+.cards__title {
+    margin: 32px 0 8px 0;
+}
+
+.contacts__button--pink {
+    background-color: #D41342;
+    border: transparent;
+    padding: 6px 22px;
+    text-align: center;
+    font-family: inherit;
+    color:white;
+    border-radius: 8px; 
+    
+}
+.contacts__button--white {
+    background-color: #D41342;
+    border: transparent;
+    padding: 6px 22px;
+    text-align: center;
+    font-family: inherit;
+    color:white;
+    border-radius: 8px;   
+}
