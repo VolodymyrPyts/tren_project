@@ -153,6 +153,7 @@ ul {
   border-radius: 24px;
 }
 
+
 @media screen and (min-width: 768px) {
   .advantages-list {
     display: -webkit-box;
@@ -287,6 +288,7 @@ ul {
   }
 }
 
+
 .review-list__item {
   width: 100%;
   text-align: center;
@@ -398,5 +400,37 @@ ul {
 
 .pagination-list__item:not(:last-child) {
   margin-right: 18px;
+}
+
+.contacts {
+  background-size: 100% 85%;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -32px;
+  }
+}
+
+.cards__item {
+  background-color: var(--white-text-color);
+  border-radius: 24px;
+  padding: 40px 32px;
+}
+
+@media (min-width: 768px) {
+  .cards__item {
+    width: calc((100% - 96px) / 3);
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards__item {
+    padding: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
