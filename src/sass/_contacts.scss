@@ -146,11 +146,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 32px;
     @media (min-width: 768px) {
         flex-direction: row;
+        margin-top: 40px;
     }
+    @media (min-width: 1200px) {
+        margin-top: 60px;
 }
-
+}
 .contacts__buttons--pink {
     font-size: 16px;
     font-weight: 700;
