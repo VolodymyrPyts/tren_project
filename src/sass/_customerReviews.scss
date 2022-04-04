@@ -68,7 +68,7 @@ text-align: center;
 color: var(--first-text-color);
 &::before{
     content: '';
-    background-image: url(./images/icons.svg#red-dots);
+    background-image: url('./images/icons.svg#red-dots');
     background-repeat: no-repeat;
     width: 32px;
     height: 4px;
