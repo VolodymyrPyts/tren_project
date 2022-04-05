@@ -350,7 +350,7 @@ ul {
 
 .review-list__text::before {
   content: '';
-  background-image: url("./images/icons.svg#quotes");
+  background-image: url("./../images/icons.svg#quotes");
   background-repeat: no-repeat;
   position: absolute;
   top: -15%;
@@ -368,7 +368,7 @@ ul {
 
 .review-list__subtext::before {
   content: '';
-  background-image: url(./images/icons.svg#red-dots);
+  background-image: url("./../images/icons.svg#red-dots");
   background-repeat: no-repeat;
   width: 32px;
   height: 4px;
