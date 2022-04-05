@@ -33,6 +33,7 @@
     margin-bottom: 18px;
 
     width: 232px;
+    font-family: 'Titan One';
     font-weight: 400;
     font-size: 18px;
     line-height: calc(21 / 18);
@@ -60,6 +61,8 @@
 .footer-text-maine {
     margin-bottom: 40px;
     width: 200px;
+
+    font-family: 'Titan One';
     font-weight: 400;
     font-size: 34px;
     line-height: calc(39 / 34);
@@ -130,7 +133,7 @@
     &:hover,
     &:focus {
         background-color: var(--first-accent-color);
-        fill: #ffffff;
+        fill: var(--white-text-color);
         outline: none;
     }
 
@@ -174,7 +177,21 @@
 }
 
 .tel-item--black {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    ont-size: 12px;
+    line-height: calc(22 / 12);
     color: var(--first-text-color);
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: calc(26 / 14);
+    }
+    
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: calc(30 / 16);
+    }
 }
 
 .text-wrap {

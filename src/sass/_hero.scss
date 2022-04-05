@@ -16,13 +16,13 @@
 
   height: 100%;
   background-color: #ffb8ca;
-  background-image: url(../images/top-ice-cream-mobile.png), url(../images/circle.svg);
+  background-image: url(../images/top-ice-cream-mobile.png);
   background-repeat: no-repeat;
   background-position: left 117px top 100%, top 83px left 36px;
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/top-ice-cream-tablet.png), url(../images/milk-tablet.png),
-      url(../images/girl-tablet.png), url(../images/circle.svg);
+      url(../images/girl-tablet.png);
     background-repeat: no-repeat;
     background-position: left 50% bottom 0, bottom 16px left 32px, bottom 0px right 32px,
       top 43px left 250px;
@@ -31,7 +31,7 @@
 
   @media screen and (min-width: 1280px) {
     background-image: url(../images/top-ice-cream-desktop.png), url(../images/milk-desktop.png),
-      url(../images/girl-desktop.png), url(../images/circle.svg);
+      url(../images/girl-desktop.png);
     background-repeat: no-repeat;
     background-position: right 408px bottom 0, bottom 60px left 16px, bottom 0px right 32px,
       top 57px right 229px;
@@ -49,7 +49,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white-text-color);
 
   margin-bottom: 20px;
 
@@ -67,7 +67,7 @@
 .hero__title-accent {
   font-size: 48px;
   line-height: 0.965;
-  color: #d41443;
+  color: var(--first-accent-color);
 
   @media screen and (min-width: 768px) {
     font-size: 34px;
@@ -98,12 +98,12 @@
   line-height: 10px;
 
   .hero__btn-item:first-child & {
-    background: #d41443;
-    color: #fff;
+    background: var(--first-accent-color);
+    color: var(--white-text-color);
   }
   .hero__btn-item:last-child & {
-    background: #fff;
-    color: #d41443;
+    background:var(--white-text-color);
+    color: var(--first-accent-color);
   }
 }
 
@@ -127,7 +127,7 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 150%;
-  color: #ffffff;
+  color: var(--white-text-color);
   margin-bottom: 7px;
 
   @media screen and (min-width: 1280px) {
@@ -153,7 +153,7 @@
 }
 
 .property__item {
-  background-image: url(../images/circle2.svg);
+  // background-image: url(../images/circle2.svg);
   background-size: 16px 16px;
   background-position: right 3px top 8px;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #d41443;
+  color: var(--first-accent-color);
 }
 
 .property__text {
@@ -180,5 +180,5 @@
   line-height: 10px;
   text-align: right;
 
-  color: #ffffff;
+  color: var(--white-text-color);
 }

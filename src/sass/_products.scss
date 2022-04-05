@@ -2,12 +2,10 @@ ul {
     list-style: none;
 }
 
-* {
-    margin: 0 auto;
-}
+
 
 .products {
-    background: #ffffff;
+    background: var(--white-text-color);
 }
 
 .product__natural {
@@ -36,7 +34,7 @@ ul {
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: #D41443;
+    color: var(--first-accent-color);
     @media screen and (min-width: 768px) and (max-width: 1279px) {
         margin-bottom: 154px;
     }
@@ -276,7 +274,7 @@ ul {
 
     margin-bottom: 67px;
     
-    color: #FFFFFF;
+    color: var(--white-text-color);
 
     @media screen and (min-width: 1280px) {
         font-size: 30px;
@@ -315,7 +313,7 @@ ul {
     text-align: center;
     letter-spacing: 0.04em;
 
-    color: #FFFFFF;
+    color: var(--white-text-color);
 
     @media screen and (min-width: 768px) and (max-width: 1279px) {
         line-height: 1.76;
