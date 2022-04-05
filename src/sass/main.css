@@ -560,15 +560,14 @@ body {
   background-image: url(../images/top-ice-cream-mobile.png), url(../images/circle.svg);
   background-repeat: no-repeat;
   background-position: left 117px top 100%, top 83px left 36px;
-
-
 }
+
 @media screen and (min-width: 768px) {
 
   .hero {
     padding-top: 102px;
     padding-bottom: 56px;
-
+  }
   .hero__title {
     font-size: 22px;
     line-height: 1.13;
@@ -690,18 +689,17 @@ body {
   color: #fff;
 }
 
-
-
 .hero__title-accent {
   font-size: 48px;
   line-height: 0.965;
   color: #d41443;
 }
-
 @media screen and (min-width: 768px) {
   .hero__title-accent {
     font-size: 34px;
     line-height: 0.91;
+  }
+}
 
 .review-list__subtext::before {
   content: '';
