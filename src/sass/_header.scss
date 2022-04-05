@@ -41,9 +41,11 @@
   }
 }
 
-.burger {
+.mob-menu__burger {
   width: 20px;
   height: 12px;
+
+  fill: var(--first-accent-color);
 }
 
 .mob-menu.is-hidden {
@@ -96,6 +98,13 @@
   @media screen and (min-width: 1280px) {
     display: none;
   }
+}
+
+.mob-menu__cross {
+  width: 14px;
+  height: 14px;
+
+  fill: var(--white-text-color);
 }
 
 .mob-menu__btn {

@@ -5,16 +5,22 @@
         </a>
         <div class="tab-menu">
             <button type="button" class="mob-menu-open-btn">
-
-                <!-- <img src="./images/burger.svg" alt="open" class="burger"> -->
+                <svg>
+                    <use href="../images/icons.svg#burger" class="mob-menu__burger"></use>
+                </svg>
             </button>
             <div class="mob-menu is-hidden">
                 <button type="button" class="mob-menu-close-btn">
-                    <!-- <img src="./images/cross.svg" alt="close"> -->
+                    <svg>
+                        <use href="../images/icons.svg#cross" class="mob-menu__cross"></use>
+                    </svg>
 
                 </button>
                 <button type="button" class="mob-menu__btn">
-                    <span class="mob-menu__btn--text">Buy now</span>
+                    <span class="mob-menu__btn--text" data-modal-open>Buy now</span>
+                    <svg>
+                        <use href="../images/icons.svg#next" class="svg__next"></use>
+                    </svg>
                 </button>
                 <nav class="navigation">
                     <ul class="navigation__list">
@@ -27,7 +33,10 @@
                 </nav>
             </div>
             <button type="button" class="header__btn">
-                <span class="header__btn--text"> Buy now</span>
+                <span class="header__btn--text" data-modal-open> Buy now</span>
+                <svg>
+                    <use href="../images/icons.svg#next" class="svg__next"></use>
+                </svg>
             </button>
         </div>
     </div>

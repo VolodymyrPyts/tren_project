@@ -13,29 +13,30 @@
     padding-top: 147px;
     padding-bottom: 84px;
   }
-
-  height: 100%;
-  background-color: #ffb8ca;
-  background-image: url(../images/top-ice-cream-mobile.png);
-  background-repeat: no-repeat;
-  background-position: left 117px top 100%, top 83px left 36px;
-
-  @media screen and (min-width: 768px) {
-    background-image: url(../images/top-ice-cream-tablet.png), url(../images/milk-tablet.png),
-      url(../images/girl-tablet.png);
+  .container {
+    height: 100%;
+    background-color: #ffb8ca;
+    background-image: url(../images/top-ice-cream-mobile.png);
     background-repeat: no-repeat;
-    background-position: left 50% bottom 0, bottom 16px left 32px, bottom 0px right 32px,
-      top 43px left 250px;
-    background-size: 143px 336px, 152px 154px, 190px 150px, 335px 335px;
-  }
+    background-position: left 117px top 100%, top 83px left 36px;
 
-  @media screen and (min-width: 1280px) {
-    background-image: url(../images/top-ice-cream-desktop.png), url(../images/milk-desktop.png),
-      url(../images/girl-desktop.png);
-    background-repeat: no-repeat;
-    background-position: right 408px bottom 0, bottom 60px left 16px, bottom 0px right 32px,
-      top 57px right 229px;
-    background-size: 236px 557px, 152px 154px, 190px 150px, 534px 534px;
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/top-ice-cream-tablet.png), url(../images/milk-tablet.png),
+        url(../images/girl-tablet.png);
+      background-repeat: no-repeat;
+      background-position: left 50% bottom 0, bottom 16px left 32px, bottom 0px right 32px,
+        top 43px left 250px;
+      background-size: 143px 336px, 152px 154px, 190px 150px, 335px 335px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      background-image: url(../images/top-ice-cream-desktop.png), url(../images/milk-desktop.png),
+        url(../images/girl-desktop.png);
+      background-repeat: no-repeat;
+      background-position: right 408px bottom 0, bottom 60px left 16px, bottom 0px right 32px,
+        top 57px right 229px;
+      background-size: 236px 557px, 152px 154px, 190px 150px, 534px 534px;
+    }
   }
 }
 
@@ -102,7 +103,7 @@
     color: var(--white-text-color);
   }
   .hero__btn-item:last-child & {
-    background:var(--white-text-color);
+    background: var(--white-text-color);
     color: var(--first-accent-color);
   }
 }
