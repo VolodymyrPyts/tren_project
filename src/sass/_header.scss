@@ -100,10 +100,10 @@
 
 .mob-menu__btn {
   max-width: 210px;
-  background: #ffffff;
+  background: var(--background-white-color);
   border-radius: 22px;
 
-  color: #d41443;
+  color: var(--first-accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -153,9 +153,9 @@
   }
 }
 .navigation__link {
-  color: #ffffff;
+  color: var(--white-text-color);
   &.current {
-    color: #d41443;
+    color: var(--first-accent-color);
   }
 }
 
@@ -166,10 +166,10 @@
   min-width: 160px;
   padding: 12px 37px;
 
-  background: #ffffff;
+  background: var(--white-text-color);
   border-radius: 22px;
 
-  color: #d41443;
+  color: var(--first-accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -178,7 +178,7 @@
 
   &:hover,
   &:focus {
-    background: #ecebeb;
+    background: var(--button-white-hover);
   }
 }
 

@@ -133,7 +133,7 @@
     &:hover,
     &:focus {
         background-color: var(--first-accent-color);
-        fill: #ffffff;
+        fill: var(--white-text-color);
         outline: none;
     }
 
