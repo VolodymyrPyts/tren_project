@@ -8,7 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   background-image:  
-  url("/images/ice-cream-dessert-morozhenoe-fon-crop.jpeg");
+  url("./../images/ice-cream-dessert-morozhenoe-fon-crop-1.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,7 +17,7 @@
 
 .js-speaker-form__title {
 margin-bottom: 12px;
-font-weight: $font-weight-bold;
+font-weight: bold;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
@@ -160,7 +160,7 @@ margin-top: 20px;
   border-radius: 4px;
   background: #d41443;
   border-radius: 4px;
-  font-weight: $font-weight-bold;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   color: #FFFFFF;
