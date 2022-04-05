@@ -390,6 +390,15 @@ body {
   margin-left: 8px;
 }
 
+
+.review-list__text::before {
+  content: '';
+  background-image: url("./../images/icons.svg#quotes");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -15%;
+  left: -10%;
+
 .hero__btn {
   font-family: "DM Sans";
   border-radius: 20px;
@@ -397,14 +406,28 @@ body {
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
+
 }
 .hero__btn-item:first-child .hero__btn {
   background: #d41443;
   color: #fff;
 }
+
+
+.review-list__subtext::before {
+  content: '';
+  background-image: url("./../images/icons.svg#red-dots");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 4px;
+  left: 50%;
+  top: 0;
+  position: absolute;
+
 .hero__btn-item:last-child .hero__btn {
   background: #fff;
   color: #d41443;
+
 }
 
 .hero__description {
