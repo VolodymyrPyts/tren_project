@@ -398,6 +398,7 @@ body {
   position: absolute;
   top: -15%;
   left: -10%;
+}
 
 .hero__btn {
   font-family: "DM Sans";
@@ -422,7 +423,7 @@ body {
   height: 4px;
   left: 50%;
   top: 0;
-  position: absolute;
+  position: absolute;}
 
 .hero__btn-item:last-child .hero__btn {
   background: #fff;

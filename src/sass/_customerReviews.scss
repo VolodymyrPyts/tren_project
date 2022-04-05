@@ -50,7 +50,7 @@
     position: relative;
     
     padding: 0 15px 8px 9px;
-    &::before{
+    &:before{
         content: '';
 
        
@@ -69,7 +69,8 @@ font-size: 14px;
 line-height: 186%;
 text-align: center;
 color: var(--first-text-color);
-&::before{
+
+&:before{
     content: '';
     background-image: url('./../images/icons.svg#red-dots');
     background-repeat: no-repeat;
@@ -79,7 +80,7 @@ color: var(--first-text-color);
     top: 0;
     position: absolute;
  };
- margin-bottom: 16px;
+ 
  @media screen and (min-width:768px){
     margin-bottom: 32px;
  };
