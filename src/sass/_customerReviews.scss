@@ -52,7 +52,10 @@
     padding: 0 15px 8px 9px;
     &::before{
         content: '';
-        // background-image: url('./images/icons.svg#quotes') ;
+
+       
+        background-image: url('./../images/icons.svg#quotes');
+
         background-repeat: no-repeat;
         position: absolute;
         top: -15%;
@@ -68,7 +71,7 @@ text-align: center;
 color: var(--first-text-color);
 &::before{
     content: '';
-    // background-image: url('./images/icons.svg#red-dots');
+    background-image: url('./../images/icons.svg#red-dots');
     background-repeat: no-repeat;
     width: 32px;
     height: 4px;
