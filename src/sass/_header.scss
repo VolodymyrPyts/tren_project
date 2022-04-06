@@ -1,7 +1,10 @@
 .header {
   position: absolute;
   width: 100%;
-  background-color: transparent;
+  top: 0;
+  right: 0;
+  z-index: 20;
+ 
 
   padding-top: 8px;
 
@@ -22,10 +25,18 @@
 }
 
 .tab-menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-left: 60px;
+  @media screen and (min-width: 768px) {
+  margin-left: 290px;  
+  }
   @media screen and (min-width: 1280px) {
-    display: flex;
+    
     align-items: center;
-    width: 100%;
+   
 
     margin-left: 175px;
   }
@@ -33,8 +44,14 @@
 
 .mob-menu-open-btn {
   margin-left: auto;
+  border: none;
+  background: none;
+  fill: var(--first-accent-color);
+
+  
   @media screen and (min-width: 768px) {
-    margin-right: 32px;
+    margin-right: 15px;
+    margin-left: 0;
   }
   @media screen and (min-width: 1280px) {
     display: none;
@@ -42,8 +59,9 @@
 }
 
 .mob-menu__burger {
-  width: 20px;
-  height: 12px;
+  
+height: 100%;
+width: 100%;
 
   fill: var(--first-accent-color);
 }
@@ -65,17 +83,18 @@
 }
 
 .mob-menu {
+  
   @media screen and (max-width: 1279px) {
     display: flex;
     flex-direction: column;
-
+background-color: #D41443;
     position: fixed;
 
     top: 0;
     right: 0;
     width: 250px;
     height: 100%;
-    background-color: #e17992;
+   
 
     transform: translateX(0);
     opacity: 1;
@@ -94,6 +113,8 @@
   position: absolute;
   top: 20px;
   right: 20px;
+  background-color: transparent;
+  border: none;
 
   @media screen and (min-width: 1280px) {
     display: none;
@@ -168,20 +189,28 @@
   }
 }
 
+.svg__next {
+  margin-left: 15px;
+  @media screen and (min-width: 780px) {
+    margin-left: 10px;
+  }
+}
+
 .header__btn {
   @media screen and (max-width: 767px) {
     display: none;
   }
+  display: flex;
   min-width: 160px;
-  padding: 12px 37px;
+  padding: 12px 35px;
 
   background: var(--white-text-color);
   border-radius: 22px;
-
+border-color: transparent ;
   color: var(--first-accent-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
+  line-height: 1.31;
   text-align: center;
   align-items: center;
 
@@ -192,11 +221,12 @@
 }
 
 .header__btn--text::after {
-  content: url('./images/icons.svg#next');
+  // content: url(../images/next.svg);
   margin-left: 12px;
 }
 
 .mob-menu__btn--text::after {
-  content: url('./images/icons.svg#next');
+  // content: url(../images/next.svg);
   margin-left: 12px;
 }
+

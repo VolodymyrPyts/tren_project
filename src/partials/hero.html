@@ -1,5 +1,5 @@
-<section class="hero">
-    <div class="container">
+<section class="hero section--nonBottomPad section--hero">
+    <div class="container hero__container">
         <div class="hero-content">
             <div>
                 <h1 class="hero__title">ice cream <br> made with <br><span class="hero__title-accent">passion</span>
@@ -12,13 +12,28 @@
                         <a href="#about" class="hero__btn">How it’s made?</a>
                     </li>
                 </ul>
-                <div class="hero__description">
-                    <p class="hero__paragraf">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et
-                    </p>
-                    <a href="#" class="hero__link">
-                        <img src="./images/arrow-right.jpg" alt="arrow" class="hero__link-arrow">
-                    </a>
+                <div class="hero__goods"> 
+                    <picture class="hero__milk">
+                        <source srcset="
+                              ./images/milk-desktop.png 1x,
+                              ./images/milk-desktop@2x.png 2x,
+                              ./images/milk-desktop@3x.png 3x
+                            " media="(min-width: 1280px)" />
+                        <source srcset="
+                              ./images/milk-tablet.png    1x,
+                              ./images/milk-tablet@2x.png 2x,
+                              ./images/milk-tablet@3x.png 3x
+                            " media="(min-width: 768px)" />
+                                             <img class="milk__png" src="./images/milk-tablet.png" alt="Галлерея" />
+                    </picture>
+                    <div class="hero__description">
+                        <p class="hero__paragraf">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et
+                        </p>
+                        <a href="#" class="hero__link">
+                            <img src="./images/arrow-right.jpg" width="26" height="26" alt="arrow" class="hero__link-arrow">
+                        </a>
+                    </div>
                 </div>
             </div>
             <ul class="property__list">
@@ -32,5 +47,55 @@
                 </li>
             </ul>
         </div>
+        <picture class="hero__ellipse">
+            <source srcset="
+                ./images/ellipse-pink.png 1x,
+                ./images/ellipse-pink@2x.png 2x,
+                ./images/ellipse-pink@3x.png 3x
+                                    " media="(min-width: 1280px)" />
+            <source srcset="
+                ./images/ellipse-pink-tadl.png    1x,
+                ./images/ellipse-pink-tadl@2x.png 2x,
+                ./images/ellipse-pink-tadl@3x.png 3x
+                                    " media="(min-width: 768px)" />
+            <source srcset="
+                ./images/ellipse-pink-mob.png    1x,
+                ./images/ellipse-pink-mob@2x.png 2x,
+                ./images/ellipse-pink-mob@3x.png 3x
+                                                                        " media="(min-width: 768px)" />
+            <img class="milk__png" src="./images/ellipse-pink-mob.png" alt="Галлерея" />
+        </picture>
+        <picture class="hero__iceCrem">
+            <source srcset="
+                        ./images/top-ice-cream-desktop.png 1x,
+                        ./images/top-ice-cream-desktop@2x.png 2x,
+                        ./images/top-ice-cream-desktop@3x.png 3x
+                                            " media="(min-width: 1280px)" />
+            <source srcset="
+                        ./images/top-ice-cream-tablet.png    1x,
+                        ./images/top-ice-cream-tablet@2x.png 2x,
+                        ./images/top-ice-cream-tablet@3x.png 3x
+                                            " media="(min-width: 768px)" />
+            <source srcset="
+                        ./images/top-ice-cream-mobile.png    1x,
+                        ./images/top-ice-cream-mobile@2x.png 2x,
+                        ./images/top-ice-cream-mobile@3x.png 3x
+                                                                                " media="(min-width: 768px)" />
+            <img class="milk__png" src="./images/top-ice-cream-mobile.png" alt="Галлерея" />
+        </picture>
+        <picture class="hero__girl">
+        <source srcset="
+                        ./images/girl-desktop.png 1x,
+                        ./images/girl-desktop@2x.png 2x,
+                        ./images/girl-desktop@3x.png 3x
+                                            " media="(min-width: 1280px)" />
+        <source srcset="
+                        ./images/girl-tablet.png    1x,
+                        ./images/girl-tablet@2x.png 2x,
+                        ./images/girl-tablet@3x.png 3x
+                                            " media="(min-width: 768px)" />
+                                                                                        
+        <img class="milk__png" src="./images/girl-tablet.png" alt="Галлерея" />
+        </picture>
     </div>
 </section>
