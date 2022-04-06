@@ -57,12 +57,12 @@
     color: var(--first-text-color);
     text-align: center;
     position: relative;
-    
+    z-index: 5;
     padding: 0 15px 8px 9px;
 
     &::before{
         content: '';
-        background-image: url(../images/quote.svg);
+        background-image: url('../images/quote.svg');
         width: 54px;
         height: 40px;
         background-repeat: no-repeat;
@@ -73,6 +73,7 @@
 }    
 
 .review-list__subtext {
+    position: relative;
 font-weight: 500;
 font-size: 14px;
 line-height: 186%;
@@ -89,7 +90,7 @@ color: var(--first-text-color);
     width: 32px;
     height: 4px;
     left: 50%;
-    top: 0;
+    top: -16px;
     position: absolute;
     transform: translateX(-50%)
  };
