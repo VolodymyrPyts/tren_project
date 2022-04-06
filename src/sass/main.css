@@ -164,7 +164,7 @@ body {
 @media screen and (min-width: 768px) {
   .mob-menu-open-btn {
     margin-right: 32px;
-
+  }
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -336,7 +336,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .mob-menu-close-btn {
-.mob-menu__btn {
+/* .mob-menu__btn { */
   max-width: 210px;
   background: #ffffff;
   border-radius: 22px;
@@ -349,7 +349,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 11px 49px;
-}
+}}
        
 @media screen and (min-width: 1280px) {
   .mob-menu__btn {
@@ -431,7 +431,7 @@ body {
 @media screen and (min-width: 1280px) {
   .mob-menu__btn {
     display: none;
-
+  }
 .hero {
   font-family: "Titan One";
   margin-top: -1px;
@@ -439,7 +439,7 @@ body {
   padding-bottom: 158px;
   height: 100%;
   background-color: #ffb8ca;
-  background-image: url(../images/top-ice-cream-mobile.png);
+  background-image: url('../images/top-ice-cream-mobile.png');
   background-repeat: no-repeat;
   background-position: left 117px top 100%, top 83px left 36px;
 }
@@ -473,7 +473,7 @@ body {
   }
   .navigation__item:last-child {
     border-bottom: 1px solid #e18298;
-
+  }
   .hero {
     padding-top: 147px;
     padding-bottom: 84px;
@@ -494,7 +494,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-
+  }
   .hero {
     background-image: url(../images/top-ice-cream-desktop.png), url(../images/milk-desktop.png), url(../images/girl-desktop.png);
     background-repeat: no-repeat;
@@ -590,7 +590,7 @@ body {
     background-position: left 50% bottom 0, bottom 16px left 32px, bottom 0px right 32px,
  top 43px left 250px;
     background-size: 143px 336px, 152px 154px, 190px 150px, 335px 335px;
-
+  }
   .hero__title {
     font-size: 38px;
     line-height: 1.15;

@@ -8,7 +8,7 @@
     @media (min-width: 768px) {
         display: flex;
         justify-content: center;
-        margin-left: -16px;
+        margin: -16px;
     }     
 }
 
@@ -22,14 +22,12 @@
         .cards__label {
             width: 130px;
             background-color: #C2E297;
-            @media (min-width: 768px) {
-                width: 138px;
-            }
+            
         }
     }
     @media (min-width: 768px) {
         width: calc((100% - 96px) / 3);
-        margin-left: 16px;    
+        margin: 16px;    
     }  
     @media (min-width: 1280px) {
         padding: 40px;
